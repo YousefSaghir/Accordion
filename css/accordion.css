@@ -1,0 +1,194 @@
+div#my-accordion {
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-auto-rows: minmax(50px, auto);
+}
+div#my-accordion div {
+  border: 1px solid #e4e6e5;
+  position: relative;
+  padding: 13px 0 0 25px;
+  margin: 0;
+  display: grid;
+  grid-auto-rows: auto;
+  grid-row-gap: 12px;
+}
+div#my-accordion .main-title {
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+  height: 60px;
+  padding: 25px;
+  line-height: 8px;
+  margin: 0;
+  border: 1px solid #e4e6e5;
+}
+div#my-accordion .opened {
+  margin: 30px 0;
+}
+div#my-accordion p.title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0465ac;
+  margin: 0;
+}
+div#my-accordion p.subtitle {
+  font-size: 12px;
+  font-weight: 600;
+  color: #999;
+  padding: 0;
+  margin: 0;
+}
+div#my-accordion i.material-icons {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 12px 25px;
+  font-size: 26px;
+}
+div#my-accordion .content {
+  height: 0;
+  overflow: hidden;
+  margin: 0;
+}
+div#my-accordion .show-content {
+  font-size: 13px;
+  font-weight: 400;
+  color: #333;
+  animation: fadedown 1s linear forwards;
+  -webkit-animation: fadedown 1s linear forwards;
+}
+
+@keyframes fadedown {
+  10% {
+    height: 10px;
+  }
+  20% {
+    height: 20px;
+  }
+  30% {
+    height: 30px;
+  }
+  40% {
+    height: 40px;
+  }
+  50% {
+    height: 50px;
+  }
+  60% {
+    height: 60px;
+  }
+  70% {
+    height: 70px;
+  }
+  80% {
+    height: 80px;
+  }
+  90% {
+    height: 90px;
+  }
+  100% {
+    height: auto;
+    margin: 13px 25px 25px 25px;
+  }
+}
+@-moz-keyframes fadedown {
+  10% {
+    height: 10px;
+  }
+  20% {
+    height: 20px;
+  }
+  30% {
+    height: 30px;
+  }
+  40% {
+    height: 40px;
+  }
+  50% {
+    height: 50px;
+  }
+  60% {
+    height: 60px;
+  }
+  70% {
+    height: 70px;
+  }
+  80% {
+    height: 80px;
+  }
+  90% {
+    height: 90px;
+  }
+  100% {
+    height: auto;
+    margin: 13px 25px 25px 25px;
+  }
+}
+@-webkit-keyframes fadedown {
+  10% {
+    height: 10px;
+  }
+  20% {
+    height: 20px;
+  }
+  30% {
+    height: 30px;
+  }
+  40% {
+    height: 40px;
+  }
+  50% {
+    height: 50px;
+  }
+  60% {
+    height: 60px;
+  }
+  70% {
+    height: 70px;
+  }
+  80% {
+    height: 80px;
+  }
+  90% {
+    height: 90px;
+  }
+  100% {
+    height: auto;
+    margin: 13px 25px 25px 25px;
+  }
+}
+@-o-keyframes fadedown {
+  10% {
+    height: 10px;
+  }
+  20% {
+    height: 20px;
+  }
+  30% {
+    height: 30px;
+  }
+  40% {
+    height: 40px;
+  }
+  50% {
+    height: 50px;
+  }
+  60% {
+    height: 60px;
+  }
+  70% {
+    height: 70px;
+  }
+  80% {
+    height: 80px;
+  }
+  90% {
+    height: 90px;
+  }
+  100% {
+    height: auto;
+    margin: 13px 25px 25px 25px;
+  }
+}
+
+/*# sourceMappingURL=accordion.css.map */

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/accordion.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script type="text/javascript" src="./accordion.js"></script>
+    <title>According demo page</title>
+  </head>
+  <body>
+    <h1>Accordion demo page</h1>
+    <div id="my-accordion"></div>
+
+    <script type="text/javascript">
+      var options = {
+        container: "my-accordion",
+        mainTitle: "Main accordion title",
+        panels: [
+          {
+            title: "My profile",
+            subtitle: "Update your profile information",
+            content:
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id totam aspernatur vel rerum harum? Aut sint ex illum! Eligendi est voluptatibus deleniti ea vel dolor quo, minus voluptatem, nisi autem nulla ipsa sed corrupti? Cum impedit et magni itaque omnis voluptates error similique vero nam laboriosam eveniet repudiandae commodi esse sed, nobis quia incidunt beatae veniam! Voluptate officiis nobis ab tenetur sapiente, quia, commodi, eligendi aspernatur non voluptates libero. Facere quis quos odio. Quia, deleniti ratione laudantium delectus necessitatibus fugiat qui rem natus odio aut nam possimus, dignissimos aperiam explicabo neque a reiciendis quisquam ex? Doloremque esse, praesentium modi aliquid fuga autem voluptatibus. Placeat itaque corporis velit, nobis exercitationem ducimus?"
+          },
+          {
+            title: "Change password",
+            subtitle: "Change your login password",
+            content:
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id totam aspernatur vel rerum harum? Aut sint ex illum! Eligendi est voluptatibus deleniti ea vel dolor quo, minus voluptatem, nisi autem nulla ipsa sed corrupti? Cum impedit et magni itaque omnis voluptates error similique vero nam laboriosam eveniet repudiandae commodi esse sed, nobis quia incidunt beatae veniam! Voluptate officiis nobis ab tenetur sapiente, quia, commodi, eligendi aspernatur non voluptates libero. Facere quis quos odio. Quia, deleniti ratione laudantium delectus necessitatibus fugiat qui rem natus odio aut nam possimus, dignissimos aperiam explicabo neque a reiciendis quisquam ex? Doloremque esse, praesentium modi aliquid fuga autem voluptatibus. Placeat itaque corporis velit, nobis exercitationem ducimus?"
+          },
+          {
+            title: "Preferences",
+            subtitle: "Set your language and timezone preferences",
+            content:
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id totam aspernatur vel rerum harum? Aut sint ex illum! Eligendi est voluptatibus deleniti ea vel dolor quo, minus voluptatem, nisi autem nulla ipsa sed corrupti? Cum impedit et magni itaque omnis voluptates error similique vero nam laboriosam eveniet repudiandae commodi esse sed, nobis quia incidunt beatae veniam! Voluptate officiis nobis ab tenetur sapiente, quia, commodi, eligendi aspernatur non voluptates libero. Facere quis quos odio. Quia, deleniti ratione laudantium delectus necessitatibus fugiat qui rem natus odio aut nam possimus, dignissimos aperiam explicabo neque a reiciendis quisquam ex? Doloremque esse, praesentium modi aliquid fuga autem voluptatibus. Placeat itaque corporis velit, nobis exercitationem ducimus?"
+          },
+          {
+            title: "No description title",
+            content:
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id totam aspernatur vel rerum harum? Aut sint ex illum! Eligendi est voluptatibus deleniti ea vel dolor quo, minus voluptatem, nisi autem nulla ipsa sed corrupti? Cum impedit et magni itaque omnis voluptates error similique vero nam laboriosam eveniet repudiandae commodi esse sed, nobis quia incidunt beatae veniam! Voluptate officiis nobis ab tenetur sapiente, quia, commodi, eligendi aspernatur non voluptates libero. Facere quis quos odio. Quia, deleniti ratione laudantium delectus necessitatibus fugiat qui rem natus odio aut nam possimus, dignissimos aperiam explicabo neque a reiciendis quisquam ex? Doloremque esse, praesentium modi aliquid fuga autem voluptatibus. Placeat itaque corporis velit, nobis exercitationem ducimus?"
+          }
+        ]
+      };
+
+      var accordion = new Accordion(options);
+      accordion.option;
+    </script>
+  </body>
+</html>
