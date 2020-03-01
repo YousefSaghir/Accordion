@@ -8,9 +8,11 @@
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-column-gap: 30px;
+
     h1 {
       grid-column: 1 / 13;
     }
+
     div#my-accordion {
       grid-column: 1 / 6;
     }
@@ -23,23 +25,13 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 30px;
+
     h1 {
       grid-column: 1 / 9;
     }
+
     div#my-accordion {
       grid-column: 1 / 8;
     }
   }
 }
-
-// @keyframes fadedown{
-// @for $i from 1 through 9 {
-
-//     #{$i*10}% {
-//       height :#{$i * 10}px;
-//     }
-//   }
-//     100% {
-//     height: auto;
-//   }
-// }
